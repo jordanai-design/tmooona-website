@@ -1,0 +1,12 @@
+[
+  { "slug": "new-in", "name": "New In", "nameEn": "New In", "image": "/images/categories/new-in.jpg", "order": 0 },
+  { "slug": "gallery-walls", "name": "קירות גלריה", "nameEn": "Gallery Walls", "image": "/images/categories/gallery-walls.jpg", "order": 1 },
+  { "slug": "pairs", "name": "זוגות", "nameEn": "Pairs", "image": "/images/categories/pairs.jpg", "order": 2 },
+  { "slug": "triplets", "name": "שלישיות", "nameEn": "Triplets", "image": "/images/categories/triplets.jpg", "order": 3 },
+  { "slug": "clocks", "name": "שעונים", "nameEn": "Clocks", "image": "/images/categories/clocks.jpg", "order": 4 },
+  { "slug": "wall-sculptures", "name": "פסלי קיר", "nameEn": "Wall Sculptures", "image": "/images/categories/wall-sculptures.jpg", "order": 5 },
+  { "slug": "abstract", "name": "אבסטרקט", "nameEn": "Abstract", "image": "/images/categories/abstract.jpg", "order": 6 },
+  { "slug": "metal-art", "name": "מתכת", "nameEn": "Metal Art", "image": "/images/categories/metal-art.jpg", "order": 7 },
+  { "slug": "wall-art", "name": "תמונות קיר", "nameEn": "Wall Art", "image": "/images/categories/wall-art.jpg", "order": 8 },
+  { "slug": "children", "name": "ילדים", "nameEn": "Children's Art", "image": "/images/categories/children.jpg", "order": 9 }
+]

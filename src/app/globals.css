@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Brand Colors */
+  --color-brand-gray: #848484;
+  --color-brand-dark: #383838;
+  --color-brand-green: #99bca6;
+  --color-brand-pink: #d9b2a4;
+  --color-brand-sage: #869590;
+  --color-brand-light: #f5f5f5;
+  --color-brand-border: #e5e5e5;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Semantic Colors */
+  --color-background: #ffffff;
+  --color-foreground: #333333;
+
+  /* Fonts */
+  --font-body: var(--font-rubik), sans-serif;
+  --font-heading: var(--font-cardo), serif;
+  --font-accent: var(--font-inter), sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default focus outlines and replace with brand style */
+*:focus-visible {
+  outline: 2px solid var(--color-brand-green);
+  outline-offset: 2px;
 }

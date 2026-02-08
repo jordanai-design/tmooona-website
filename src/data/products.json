@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "anna",
+    "name": "ANNA",
+    "description": "שעון קיר מעוצב מאלומיניום עם הדפס שיש, כולל מדף. עיצוב מודרני ומינימליסטי שמשתלב בכל חלל.",
+    "price": 1420,
+    "categorySlug": "clocks",
+    "categories": ["clocks", "new-in"],
+    "images": [
+      { "src": "/images/products/anna.jpg", "alt": "שעון קיר ANNA", "isMain": true }
+    ],
+    "dimensions": "95x140 ס״מ",
+    "materials": "מתכת, הדפס שיש",
+    "sizeOptions": [
+      { "label": "95x140 ס״מ", "price": 1420 },
+      { "label": "70x100 ס״מ", "price": 980 }
+    ],
+    "isNew": true,
+    "relatedSlugs": ["olly", "grey", "messa"]
+  },
+  {
+    "slug": "olly",
+    "name": "OLLY",
+    "description": "תמונת קנבס אבסטרקטית בגווני אדמה, משלבת טקסטורות עשירות עם קווים זורמים.",
+    "price": 890,
+    "categorySlug": "abstract",
+    "categories": ["abstract", "wall-art"],
+    "images": [
+      { "src": "/images/products/olly.jpg", "alt": "תמונת קנבס OLLY", "isMain": true }
+    ],
+    "dimensions": "80x120 ס״מ",
+    "materials": "הדפס על קנבס",
+    "isNew": true,
+    "relatedSlugs": ["anna", "grey", "bloom"]
+  },
+  {
+    "slug": "grey",
+    "name": "GREY",
+    "description": "זוג תמונות בגווני אפור ולבן, עיצוב מינימליסטי קלאסי. מושלם לסלון או לחדר שינה.",
+    "price": 1650,
+    "categorySlug": "pairs",
+    "categories": ["pairs", "abstract"],
+    "images": [
+      { "src": "/images/products/grey.jpg", "alt": "זוג תמונות GREY", "isMain": true }
+    ],
+    "dimensions": "60x90 ס״מ (כל תמונה)",
+    "materials": "הדפס על קנבס",
+    "relatedSlugs": ["anna", "olly", "terra"]
+  },
+  {
+    "slug": "messa",
+    "name": "MESSA",
+    "description": "פסל קיר מתכתי תלת מימדי בגוון זהב. יוצר אפקט דרמטי ומרשים על הקיר.",
+    "price": 2100,
+    "categorySlug": "wall-sculptures",
+    "categories": ["wall-sculptures", "metal-art"],
+    "images": [
+      { "src": "/images/products/messa.jpg", "alt": "פסל קיר MESSA", "isMain": true }
+    ],
+    "dimensions": "70x70 ס״מ",
+    "materials": "מתכת מוזהבת",
+    "relatedSlugs": ["luna", "nova", "anna"]
+  },
+  {
+    "slug": "bloom",
+    "name": "BLOOM",
+    "description": "שלישיית תמונות פרחוניות בגווני פסטל. מוסיפות נגיעה רכה ורומנטית לכל חדר.",
+    "price": 1980,
+    "categorySlug": "triplets",
+    "categories": ["triplets", "wall-art"],
+    "images": [
+      { "src": "/images/products/bloom.jpg", "alt": "שלישיית תמונות BLOOM", "isMain": true }
+    ],
+    "dimensions": "40x60 ס״מ (כל תמונה)",
+    "materials": "הדפס על קנבס",
+    "isNew": true,
+    "relatedSlugs": ["grey", "terra", "sky"]
+  },
+  {
+    "slug": "terra",
+    "name": "TERRA",
+    "description": "קיר גלריה מעוצב - שילוב של 5 תמונות בגווני אדמה חמים. כולל מסגרות עץ טבעי.",
+    "price": 3200,
+    "categorySlug": "gallery-walls",
+    "categories": ["gallery-walls", "wall-art"],
+    "images": [
+      { "src": "/images/products/terra.jpg", "alt": "קיר גלריה TERRA", "isMain": true }
+    ],
+    "dimensions": "סה״כ 180x150 ס״מ",
+    "materials": "הדפס על קנבס, מסגרות עץ",
+    "isFeatured": true,
+    "relatedSlugs": ["bloom", "grey", "sky"]
+  },
+  {
+    "slug": "luna",
+    "name": "LUNA",
+    "description": "פסל קיר מתכתי בצורת ירח, בגוון כסוף מט. אלמנט דקורטיבי ייחודי ומרשים.",
+    "price": 1550,
+    "categorySlug": "wall-sculptures",
+    "categories": ["wall-sculptures", "metal-art"],
+    "images": [
+      { "src": "/images/products/luna.jpg", "alt": "פסל קיר LUNA", "isMain": true }
+    ],
+    "dimensions": "60x60 ס״מ",
+    "materials": "מתכת כסופה",
+    "relatedSlugs": ["messa", "nova", "anna"]
+  },
+  {
+    "slug": "nova",
+    "name": "NOVA",
+    "description": "תמונת מתכת מודרנית עם אפקט תלת מימדי. שילוב של זהב ושחור.",
+    "price": 1780,
+    "categorySlug": "metal-art",
+    "categories": ["metal-art", "abstract"],
+    "images": [
+      { "src": "/images/products/nova.jpg", "alt": "תמונת מתכת NOVA", "isMain": true }
+    ],
+    "dimensions": "90x90 ס״מ",
+    "materials": "מתכת, אקריליק",
+    "isNew": true,
+    "relatedSlugs": ["messa", "luna", "terra"]
+  },
+  {
+    "slug": "sky",
+    "name": "SKY",
+    "description": "זוג תמונות בגווני כחול ולבן. עיצוב שקט ורגוע שמזכיר שמיים ועננים.",
+    "price": 1450,
+    "categorySlug": "pairs",
+    "categories": ["pairs", "wall-art"],
+    "images": [
+      { "src": "/images/products/sky.jpg", "alt": "זוג תמונות SKY", "isMain": true }
+    ],
+    "dimensions": "50x70 ס״מ (כל תמונה)",
+    "materials": "הדפס על קנבס",
+    "relatedSlugs": ["grey", "bloom", "olly"]
+  },
+  {
+    "slug": "teddy",
+    "name": "TEDDY",
+    "description": "תמונה מאוירת לחדר ילדים - דובי חמוד בגווני פסטל. מושלם לחדר תינוקות.",
+    "price": 490,
+    "categorySlug": "children",
+    "categories": ["children", "wall-art"],
+    "images": [
+      { "src": "/images/products/teddy.jpg", "alt": "תמונת ילדים TEDDY", "isMain": true }
+    ],
+    "dimensions": "40x50 ס״מ",
+    "materials": "הדפס על קנבס",
+    "sizeOptions": [
+      { "label": "40x50 ס״מ", "price": 490 },
+      { "label": "30x40 ס״מ", "price": 350 }
+    ],
+    "relatedSlugs": ["bloom", "sky"]
+  }
+]
